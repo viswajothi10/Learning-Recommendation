@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Model files (large binaries - optional to exclude)
+# *.pkl
+
+# Node
+node_modules/
+frontend/build/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp scripts
+diagnosis.py
+boundary.py
+backend_test.log
